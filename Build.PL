@@ -6,7 +6,7 @@ use strict;
 use Module::Build;
 
 my $b = Module::Build->new(
-	'module_name'	=> 'Graphics::ColorNames::WWW',
+	'module_name'	=> 'Graphics::ColorNames::Pantone',
 	'license'	=> 'perl',
 
 	'sign'		=> 1,
@@ -21,8 +21,8 @@ my $b = Module::Build->new(
 		'Test::NoWarnings' => 0,
 	},
 	'resources' => {
-		'homepage' => 'http://search.cpan.org/dist/Graphics-ColorNames-WWW',
-		'repository' => 'http://github.com/cfaerber/Graphics-ColorNames-WWW',
+		'homepage' => 'https://metacpan.org/dist/Graphics-ColorNames-Pantone',
+		'repository' => 'http://github.com/lichtkind/Graphics-ColorNames-Pantone',
 	},
 );
 
