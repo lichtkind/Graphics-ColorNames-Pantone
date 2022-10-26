@@ -9,7 +9,7 @@ my $b = Module::Build->new(
 	'module_name'	=> 'Graphics::ColorNames::Pantone',
 	'license'	=> 'perl',
 
-	'sign'		=> 1,
+#	'sign'		=> 1,
 	'create_license' => 1,
 	'create_makefile_pl' => 'traditional',
 
