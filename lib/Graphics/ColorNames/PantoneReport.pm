@@ -6,7 +6,7 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '0.51';
 
 sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     return {
@@ -181,7 +181,7 @@ Graphics::ColorNames::PantoneReport - RGB values of Pantone Report colors
   require Graphics::ColorNames::PantoneReport;
 
   $NameTable = Graphics::ColorNames::PantoneReport->NamesRgbTable();
-  $RgbBlack  = $NameTable->{'marigold'};
+  $RgbBlack  = $NameTable->{'airyblue'};
 
 =head1 DESCRIPTION
 
@@ -192,8 +192,8 @@ mistaken for the colors of the palette created by Pantone for Designers,
 which can be accessed via L<Graphics::ColorNames::Pantone>.
 
 All names are lower case and do not contain space or apostrophes or other 
-none ASCII characters - the originally named I<"Potter's Clay"> is
-here I<'pottersclay'> and I<Crème de Peche> => I<cremedepeche>.
+none ASCII characters - the originally named C<"Potter's Clay"> is
+here C<'pottersclay'> and C<Crème de Peche> => C<'cremedepeche'>.
 
 See the documentation of L<Graphics::ColorNames> for information how to use
 this module.

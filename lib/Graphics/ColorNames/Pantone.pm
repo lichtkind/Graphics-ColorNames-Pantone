@@ -6,7 +6,7 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '0.51';
 
 sub NamesRgbTable {
     return {
@@ -1115,7 +1115,7 @@ Graphics::ColorNames::Pantone - RGB values of Pantone colors
   require Graphics::ColorNames::Pantone;
 
   $NameTable = Graphics::ColorNames::Pantone->NamesRgbTable();
-  $RgbBlack  = $NameTable->{'marigold'};
+  $RgbBlack  = $NameTable->{'151'};
 
 =head1 DESCRIPTION
 

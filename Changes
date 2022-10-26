@@ -1,5 +1,11 @@
-Revision history for Perl extension Graphics::ColorNames::Pantone
+0.51 2022-10-27 lichtkind
+--------
+    * = small fixes
+    * ? realistic names in example code in chapter SYNOPSIS
+    * & added CONTRIBUTING file
 
 
-0.10  Sat Nov 26 00:00:00 2005
-	- first public release
+0.5  2022-10-26 lichtkind
+--------
+    * = first public release
+    * * complete color lists (even 2022 report colors ae missing)
