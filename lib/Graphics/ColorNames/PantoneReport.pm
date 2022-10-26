@@ -44,7 +44,7 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'dustycedar'          =>   0xAD5D5D,
     'lushmeadow'          =>   0x006E51,
     'spicymustard'        =>   0xD8AE47,
-    'spicymustard'        =>   0xD8AE47,
+    'pottersclay'         =>   0x9E4624,
     'bodacious'           =>   0xB76BA3,
     'niagara'             =>   0x578CA9,
     'primroseyellow'      =>   0xF6D155,
@@ -76,7 +76,7 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'emperador'           =>   0x6C4F3D,
     'almostmauve'         =>   0xEADEDB,
     'springcrocus'        =>   0xBC70A4,
-    'lime punc'           =>   0xBFD641,
+    'limepunc'            =>   0xBFD641,
     'sailorblue'          =>   0x2E4A62,
     'harbormist'          =>   0xB4B7BA,
     'warmsand'            =>   0xC0AB8E,
@@ -95,7 +95,6 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'almondbuff'          =>   0xD1B894,
     'quietgray'           =>   0xBCBCBE,
     'meerkat'             =>   0xA9754F,
-    'fiesta'              =>   0xDD4132,
     'jesterred'           =>   0x9E1030,
     'turmeric'            =>   0xFE840E,
     'livingcoral'         =>   0xFF6F61,
@@ -111,9 +110,8 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'eclipse'             =>   0x343148,
     'sweetcorn'           =>   0xF0EAD6,
     'browngranite'        =>   0x615550,
-    'chilipepper'         =>   0x9B1B30,
     'bikingred'           =>   0x77212E,
-    'bikingred'           =>   0x77212E,
+    'cremedepeche'        =>   0xF5D6C6,
     'peachpink'           =>   0xFA9A85,
     'rockyroad'           =>   0x5A3E36,
     'fruitdove'           =>   0xCE5B78,
@@ -136,7 +134,7 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'mosaicblue'          =>   0x00758F,
     'sunlight'            =>   0xEDD59E,
     'coralpink'           =>   0xE8A798,
-    'cinnamon stic'       =>   0x9C4722,
+    'cinnamonstic'        =>   0x9C4722,
     'grapecompote'        =>   0x6B5876,
     'lark'                =>   0xB89B72,
     'navyblazer'          =>   0x282D3C,
@@ -172,6 +170,8 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
 
 1;
 
+=encoding utf8
+
 =head1 NAME
 
 Graphics::ColorNames::PantoneReport - RGB values of Pantone Report colors
@@ -185,21 +185,22 @@ Graphics::ColorNames::PantoneReport - RGB values of Pantone Report colors
 
 =head1 DESCRIPTION
 
-This module defines names and associated RGB values of colors that were
+This module defines 155 names and associated RGB values of colors that were
 part of the annual report of the I<Pantone Institute> from 2016 to 2021.
 They reflect trends at the I<New York Fashion Week> and should not be
 mistaken for the colors of the palette created by Pantone for Designers,
 which can be accessed via L<Graphics::ColorNames::Pantone>.
 
-All names are lower case and do not contain space or apostrophes (e.g.
-the originally named I<"Potter's Clay"> is here I<'pottersclay'>).
+All names are lower case and do not contain space or apostrophes or other 
+none ASCII characters - the originally named I<"Potter's Clay"> is
+here I<'pottersclay'> and I<Crème de Peche> => I<cremedepeche>.
 
 See the documentation of L<Graphics::ColorNames> for information how to use
 this module.
 
 =head1 SEE ALSO
 
-Pantone Colors <https://www.w3schools.com/colors/colors_trends.asp>
+Pantone Report Colors L<https://www.w3schools.com/colors/colors_trends.asp>
 
 =head1 AUTHOR
 

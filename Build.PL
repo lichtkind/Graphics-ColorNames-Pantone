@@ -19,6 +19,7 @@ my $b = Module::Build->new(
 	'build_requires' => {
 		'Test::More' => 0, 
 		'Test::NoWarnings' => 0,
+		'Test::Pod' => 0, 
 	},
 	'resources' => {
 		'homepage' => 'https://metacpan.org/dist/Graphics-ColorNames-Pantone',

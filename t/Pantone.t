@@ -1,15 +1,25 @@
-use Test::More tests => 6;
+#!/usr/bin/perl -w
+use strict;
+BEGIN { 
+    unshift @INC, 'lib';
+};
+
+use Test::More tests => 1091 + 7;
 use Test::NoWarnings;
 
-use strict;
-use Carp;
-
-use Graphics::ColorNames 0.20, qw( hex2tuple tuple2hex );
+eval "use Graphics::ColorNames 0.20, qw( hex2tuple tuple2hex )";
+ok( not $@ );
+tie my %colors, 'Graphics::ColorNames', 'Pantone';
 ok(1);
+is(keys %colors, 1091);
 
-tie my %colors, 'Graphics::ColorNames', 'CSS';
-ok(1);
+for my $name (keys %colors) {
+    my @RGB = hex2tuple( $colors{$name} );
+    is(tuple2hex(@RGB), $colors{$name} );
+}
 
-ok(exists($colors{"fuchsia"}));
-ok(exists($colors{"fuscia"}));
-ok($colors{"fuscia"} eq $colors{"fuchsia"});
+is( uc $colors{'100'},     'FFFF7D');
+is( uc $colors{'251'},     'DE9CFF');
+is( uc $colors{'8142x'},   '3047FF');
+
+exit (0);
