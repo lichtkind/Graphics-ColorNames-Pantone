@@ -206,7 +206,7 @@ Pantone Report Colors L<https://www.w3schools.com/colors/colors_trends.asp>
 
 Herbert Breunung <lichtkind@cpan.org>
 
-Based on C<Graphics::ColorNames::X> by Robert Rothenberg.
+Based on L<Graphics::ColorNames::X> by Robert Rothenberg.
 
 =head1 LICENSE
 

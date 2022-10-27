@@ -1141,7 +1141,7 @@ Pantone Colors L<https://www.pantone-colours.com/>
 
 Herbert Breunung <lichtkind@cpan.org>
 
-Based on C<Graphics::ColorNames::x> by Robert Rothenberg.
+Based on L<Graphics::ColorNames::X> by Robert Rothenberg.
 
 =head1 LICENSE
 

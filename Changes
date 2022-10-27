@@ -1,8 +1,10 @@
 0.51 2022-10-27 lichtkind
 --------
     * = small fixes
+    * ? fixed links to ::X module
     * ? realistic names in example code in chapter SYNOPSIS
     * & added CONTRIBUTING file
+    * & added cpanfile
 
 
 0.5  2022-10-26 lichtkind
