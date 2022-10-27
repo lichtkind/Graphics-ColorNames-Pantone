@@ -25,6 +25,11 @@ my $b = Module::Build->new(
 		'homepage' => 'https://metacpan.org/dist/Graphics-ColorNames-Pantone',
 		'repository' => 'http://github.com/lichtkind/Graphics-ColorNames-Pantone',
 	},
+    meta_merge     => {
+    resources => {
+      repository  => 'https://github.com/lichtkind/Graphics-ColorNames-Pantone',
+    }
+  },
 );
 
 $b->create_build_script;
