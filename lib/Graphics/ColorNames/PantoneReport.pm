@@ -165,6 +165,7 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'buttercream'         =>   0xEFE1CE,
     'desertmist'          =>   0xE0B589,
     'willow'              =>   0x9A8B4F,
+    'veryperi'            =>   0x6667AB,
   };
 }
 
