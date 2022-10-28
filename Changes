@@ -1,3 +1,9 @@
+0.52 2022-10-27 lichtkind
+--------
+    * = maintenance
+    * & move to Dist::Zilla
+    * & added Readme's for github and CPAN
+    
 0.51 2022-10-27 lichtkind
 --------
     * = small fixes

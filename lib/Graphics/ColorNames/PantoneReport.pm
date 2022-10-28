@@ -193,7 +193,7 @@ which can be accessed via L<Graphics::ColorNames::Pantone>.
 
 All names are lower case and do not contain space or apostrophes or other 
 none ASCII characters - the originally named C<"Potter's Clay"> is
-here C<'pottersclay'> and C<Crème de Peche> => C<'cremedepeche'>.
+here C<"pottersclay"> and C<'Crème de Peche'> => C<'cremedepeche'>.
 
 See the documentation of L<Graphics::ColorNames> for information how to use
 this module.
