@@ -1,6 +1,7 @@
 0.52 2022-10-27 lichtkind
 --------
     * = maintenance
+    * + added Pantone Report colors of spring / summer 2022
     * & move to Dist::Zilla
     * & added Readme's for github and CPAN
     

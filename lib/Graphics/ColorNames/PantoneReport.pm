@@ -161,11 +161,26 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'amethystorchid'      =>   0x926AA6,
     'raspberrysorbet'     =>   0xD2386C,
     'inkwell'             =>   0x363945,
-    'ultimategray'        =>   0x939597,
+    'ultimategray'        =>   0x96999b,
     'buttercream'         =>   0xEFE1CE,
     'desertmist'          =>   0xE0B589,
     'willow'              =>   0x9A8B4F,
-    'veryperi'            =>   0x6667AB,
+    'veryperi'            =>   0x696aad,
+    'spunsugar'           =>   0xb8deec, 
+    'gossamerpink'        =>   0xf9c5c2,
+    'innuendo'            =>   0xc43f66,
+    'skydiver'            =>   0x1e609e,
+    'daffodil'            =>   0xfdc04e,
+    'glacierlake'         =>   0x84a2bb,
+    'harborblue'          =>   0x16737f,
+    'cocamocha'           =>   0x8c725f,
+    'dahliamauve'         =>   0xa64f82,
+    'poinciana'           =>   0xc94235,
+    'snowwhite'           =>   0xf2f0eb,
+    'perfectlypale'       =>   0xd5ccc1,
+#    'basil'               =>   0x, ?
+    'northerndroplet'     =>   0xbdc0bf,
+    'poppyseed'           =>   0x66686c,
   };
 }
 
@@ -187,10 +202,14 @@ Graphics::ColorNames::PantoneReport - RGB values of Pantone Report colors
 =head1 DESCRIPTION
 
 This module defines 155 names and associated RGB values of colors that were
-part of the annual report of the I<Pantone Institute> from 2016 to 2021.
+part of the annual report of the I<Pantone Institute> from 2016 to 2022.
 They reflect trends at the I<New York Fashion Week> and should not be
 mistaken for the colors of the palette created by Pantone for Designers,
-which can be accessed via L<Graphics::ColorNames::Pantone>.
+which can be accessed via L<Graphics::ColorNames::Pantone>. I choose 
+TPX (TPG) over TCX values since ladder are specific to the textile industry 
+and I assume usage of this module is monitor related. However, when no
+TPX (TPG) available we took TCX, since I dont have the exact conversion
+formula.
 
 All names are lower case and do not contain space or apostrophes or other 
 none ASCII characters - the originally named C<"Potter's Clay"> is
@@ -202,6 +221,8 @@ this module.
 =head1 SEE ALSO
 
 Pantone Report Colors L<https://www.w3schools.com/colors/colors_trends.asp>
+
+Encycolorpedia L<https://encycolorpedia.com/>
 
 =head1 AUTHOR
 
