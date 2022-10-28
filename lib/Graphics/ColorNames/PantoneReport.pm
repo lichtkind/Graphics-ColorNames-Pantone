@@ -6,9 +6,9 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.53';
+our $VERSION = '0.54';
 
-sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
+sub NamesRgbTable {
     return {
     'marsala'             =>   0x955251,
     'radiandorchid'       =>   0xB565A7,
