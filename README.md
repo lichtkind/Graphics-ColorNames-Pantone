@@ -60,7 +60,7 @@
     Graphics::ColorNames
 
  
-[CHANGES](https://github.com/lichtkind/Graphics-ColorNames-Pantone/blob/main/Changes) (with roadmap)
+[CHANGES](https://github.com/lichtkind/Graphics-ColorNames-Pantone/blob/main/Changes)
 
 [CONTRIBUTING](https://github.com/lichtkind/Graphics-ColorNames-Pantone/blob/main/CONTRIBUTING)
 

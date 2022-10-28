@@ -6,7 +6,7 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.52';
+our $VERSION = '0.53';
 
 sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     return {
@@ -178,9 +178,24 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'poinciana'           =>   0xc94235,
     'snowwhite'           =>   0xf2f0eb,
     'perfectlypale'       =>   0xd5ccc1,
-#    'basil'               =>   0x, ?
+    'basil'               =>   0x829f82,
     'northerndroplet'     =>   0xbdc0bf,
     'poppyseed'           =>   0x66686c,
+    'lavafalls'           =>   0x9f383a,
+    'samoansun'           =>   0xf5cc72,
+    'orangetiger'         =>   0xfe7133,
+    'roseviolet'          =>   0xc15391,
+    'amazon'              =>   0x1C734B,
+    'nosegay'             =>   0xf0c0d8,
+    'waterspout'          =>   0x93dbe0,
+    'caramelcafe'         =>   0x8b5a3e,
+    'midnight'            =>   0x315d78,
+    'martiniolive'        =>   0x776f57,
+    'arcticwolf'          =>   0xe6decf,
+    'autumnblonde'        =>   0xf2d6b3,
+    'polarnight'          =>   0x434550,
+    'lodenfrost'          =>   0x758e77,
+    'chiseledstone'       =>   0x8f8f93,
   };
 }
 
@@ -201,7 +216,10 @@ Graphics::ColorNames::PantoneReport - RGB values of Pantone Report colors
 
 =head1 DESCRIPTION
 
-This module defines 155 names and associated RGB values of colors that were
+See the documentation of L<Graphics::ColorNames> for information how to use
+this module.
+
+This module defines 186 names and associated RGB values of colors that were
 part of the annual report of the I<Pantone Institute> from 2016 to 2022.
 They reflect trends at the I<New York Fashion Week> and should not be
 mistaken for the colors of the palette created by Pantone for Designers,
@@ -214,9 +232,6 @@ formula.
 All names are lower case and do not contain space or apostrophes or other 
 none ASCII characters - the originally named C<"Potter's Clay"> is
 here C<"pottersclay"> and C<'Crème de Peche'> => C<'cremedepeche'>.
-
-See the documentation of L<Graphics::ColorNames> for information how to use
-this module.
 
 =head1 SEE ALSO
 

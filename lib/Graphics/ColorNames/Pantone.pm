@@ -6,7 +6,7 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.52';
+our $VERSION = '0.53';
 
 sub NamesRgbTable {
     return {
@@ -1119,6 +1119,9 @@ Graphics::ColorNames::Pantone - RGB values of Pantone colors
 
 =head1 DESCRIPTION
 
+See the documentation of L<Graphics::ColorNames> for information how to use
+this module.
+
 This module defines 1091 names and associated RGB values of colors which
 are part of a palette created by the I<Pantone Institute> for Designers.
 Please not mistake them for the colors of the annual I<Pantone Report>.
@@ -1127,9 +1130,6 @@ To access them use L<Graphics::ColorNames::PantoneReport>.
 Pantone names are numbers with three or four digits. Colors from the 
 extended palette are marked by an appended I<'2x'> (without space)
 (e.g. C<8082x> ).
-
-See the documentation of L<Graphics::ColorNames> for information how to use
-this module.
 
 =head1 SEE ALSO
 
