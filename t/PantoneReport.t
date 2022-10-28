@@ -4,14 +4,14 @@ BEGIN {
     unshift @INC, 'lib' 
 };
 
-use Test::More tests => 186 + 7;
+use Test::More tests => 184 + 7;
 use Test::NoWarnings;
 
 eval "use Graphics::ColorNames 0.20, qw( hex2tuple tuple2hex )";
 ok( not $@ );
 tie my %colors, 'Graphics::ColorNames', 'PantoneReport';
 ok(1);
-is(keys %colors, 186);
+is(keys %colors, 184);
 
 for my $name (keys %colors) {
     my @RGB = hex2tuple( $colors{$name} );

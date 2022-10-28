@@ -183,14 +183,14 @@ sub NamesRgbTable {       # https://www.w3schools.com/colors/colors_trends.asp
     'poppyseed'           =>   0x66686c,
     'lavafalls'           =>   0x9f383a,
     'samoansun'           =>   0xf5cc72,
-    'orangetiger'         =>   0xfe7133,
+#    'orangetiger'         =>   0xfe7133, # selected twice
     'roseviolet'          =>   0xc15391,
     'amazon'              =>   0x1C734B,
     'nosegay'             =>   0xf0c0d8,
     'waterspout'          =>   0x93dbe0,
     'caramelcafe'         =>   0x8b5a3e,
     'midnight'            =>   0x315d78,
-    'martiniolive'        =>   0x776f57,
+#    'martiniolive'        =>   0x776f57, # selected twice
     'arcticwolf'          =>   0xe6decf,
     'autumnblonde'        =>   0xf2d6b3,
     'polarnight'          =>   0x434550,
@@ -219,7 +219,7 @@ Graphics::ColorNames::PantoneReport - RGB values of Pantone Report colors
 See the documentation of L<Graphics::ColorNames> for information how to use
 this module.
 
-This module defines 186 names and associated RGB values of colors that were
+This module defines 184 names and associated RGB values of colors that were
 part of the annual report of the I<Pantone Institute> from 2016 to 2022.
 They reflect trends at the I<New York Fashion Week> and should not be
 mistaken for the colors of the palette created by Pantone for Designers,
