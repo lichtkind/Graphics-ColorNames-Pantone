@@ -232,6 +232,9 @@ formula.
 All names are lower case and do not contain space or apostrophes or other 
 none ASCII characters - the originally named C<"Potter's Clay"> is
 here C<"pottersclay"> and C<'Crème de Peche'> => C<'cremedepeche'>.
+But you can actually access them as "Potters_Clay" and 'Creme_de_Peche'
+because L<Graphics::ColorNames> does normalize names C<lc> and removing I<'_'>.
+
 
 =head1 SEE ALSO
 
