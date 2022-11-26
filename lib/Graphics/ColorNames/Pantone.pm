@@ -6,7 +6,7 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.54';
+our $VERSION = '0.55';
 
 sub NamesRgbTable { {
   '100'   =>  0xFFFF7D,
@@ -1103,6 +1103,9 @@ sub NamesRgbTable { {
 }; }
 
 1;
+__END__
+
+=pod
 
 =head1 NAME
 

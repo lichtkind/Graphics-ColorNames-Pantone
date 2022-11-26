@@ -6,7 +6,7 @@ require 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.54';
+our $VERSION = '0.55';
 
 sub NamesRgbTable {
     return {
@@ -232,8 +232,9 @@ formula.
 All names are lower case and do not contain space or apostrophes or other 
 none ASCII characters - the originally named C<"Potter's Clay"> is
 here C<"pottersclay"> and C<'Crème de Peche'> => C<'cremedepeche'>.
-But you can actually access them as "Potters_Clay" and 'Creme_de_Peche'
-because L<Graphics::ColorNames> does normalize names C<lc> and removing I<'_'>.
+But you can actually access them as "Potters_Clay" and 'Creme de Peche'
+because L<Graphics::ColorNames> does normalize names by C<lc> and
+removing I<'_'> and I<' '>.
 
 
 =head1 SEE ALSO
