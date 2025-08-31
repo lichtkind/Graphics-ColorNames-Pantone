@@ -1,3 +1,9 @@
+0.6 2025-09-31 lichtkind
+--------
+    * = color update release
+    * + added 58 Pantone Report Colors, corrected 2
+    * ? updated POD
+
 0.55 2022-12-31 lichtkind
 --------
     * = maintenance
@@ -17,7 +23,7 @@
     * + added Pantone Report colors of autumn / winter 2022
     * ? corrected number
     * ? typos
-    
+
 0.52 2022-10-28 lichtkind
 --------
     * = maintenance
@@ -25,7 +31,7 @@
     * & move to Dist::Zilla
     * & added Readme's for github and CPAN
     * ? added link to color search engine
-    
+
 0.51 2022-10-27 lichtkind
 --------
     * = small fixes
