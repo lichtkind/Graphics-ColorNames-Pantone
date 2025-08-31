@@ -1,12 +1,13 @@
-0.6 2025-09-31 lichtkind
+
+0.56 2025-09-31 lichtkind
+--------
+    * = maintenance release
+    * ! fix Changes file and CPAN versioning
+
+0.55 2025-09-31 lichtkind
 --------
     * = color update release
     * + added 58 Pantone Report Colors, corrected 2
-    * ? updated POD
-
-0.55 2022-12-31 lichtkind
---------
-    * = maintenance
     * ? more precise explanation of normalisation in POD
 
 0.54 2022-10-31 lichtkind
