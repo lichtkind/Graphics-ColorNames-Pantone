@@ -1,5 +1,4 @@
 
-
 package Graphics::ColorNames::PantoneReport;
 
 require 5.008;
