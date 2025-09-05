@@ -4,7 +4,7 @@
 
 ### VERSION
 
-    0.6
+    0.56
 
 [on CPAN](https://metacpan.org/pod/Graphics-ColorNames-Pantone)
 
@@ -63,9 +63,6 @@
 [CHANGES](https://github.com/lichtkind/Graphics-ColorNames-Pantone/blob/main/Changes)
 
 [CONTRIBUTING](https://github.com/lichtkind/Graphics-ColorNames-Pantone/blob/main/CONTRIBUTING)
-
-[CONTRIBUTORS](https://metacpan.org/pod/Graphics-ColorNames-Pantone#CONTRIBUTORS)
-
 
 ### AUTHOR
 
